@@ -27,6 +27,6 @@ While you are in debug mode, you will be able to see the values of variables and
   - Step into: runs to the next line of code, or if the line contains a function, it will enter that function.
   - Step out: runs the rest of this function, stopping on the line that called it.
   - Continue: runs the rest of the program until it finishes, or until another breakpoint is hit.
-* **View variables**: The debugger window at the bottom will have a panel named `Variables`. Here, the current defined variables should be listed-- if anything you want to see is missing, you can right-click on the variable in the code view window and click `Add to Watches`
+* **View variables**: The debugger window at the bottom will have a panel named `Variables`. Here, the current defined variables should be listed.
 * **Evaluate expression**: see the value of an expression rather than a variable.
 * **Find Usages**: right-click on a function name or variable and click `Find Usages`. This is more useful for larger projects where you might want to see where a variable is changed or where a function is called.
